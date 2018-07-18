@@ -50,7 +50,9 @@ function Message({ message, style }) {
         >
             {content}
             <br />
-            <em className="timestamp">{moment(created_at).fromNow()}</em>
+            <em className="timestamp">
+                {moment(created_at).format("MMM Do YYYY, h:mm:ss a")}
+            </em>
         </div>
     );
 }
