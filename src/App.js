@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Instagram Direct Archive</h1>
+          <h1 className="App-title">IG DM Archive Viewer</h1>
         </header>
         <div className="App-content">
           <ConversationList

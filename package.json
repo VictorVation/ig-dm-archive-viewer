@@ -1,5 +1,6 @@
 {
-  "name": "ig-archive-viewer",
+  "name": "ig-dm-archive-viewer",
+  "homepage": "https://victorvation.github.io/ig-dm-archive-viewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
