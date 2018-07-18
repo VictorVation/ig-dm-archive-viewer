@@ -1,0 +1,19 @@
+.ConversationList {
+    cursor: pointer;
+    grid-column: 1;
+    height: 90vh;
+    list-style: none;
+    padding: 0;
+}
+
+.ConversationList-item {
+    line-height: 50px;
+    overflow: ellipsis;
+    text-align: center;
+}
+
+.ConversationList-item:hover,
+.ConversationList-item.selected {
+    background-color: #84b082;
+    color: white;
+}

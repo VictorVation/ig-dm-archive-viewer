@@ -1,0 +1,13 @@
+.Message {
+    left: 25px !important;
+    padding-bottom: 10px;
+}
+
+.Message.mine {
+    left: -25px !important;
+    text-align: right;
+}
+
+.timestamp {
+    font-size: 10px;
+}

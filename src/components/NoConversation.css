@@ -1,0 +1,5 @@
+.NoConversation {
+    grid-column: 2 / span 4;
+    text-align: center;
+    align-self: center;
+}

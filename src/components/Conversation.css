@@ -1,0 +1,14 @@
+.Conversation {
+    grid-column: 2 / 6;
+}
+
+.Conversation-messages {
+    height: 85vh;
+}
+
+.Conversation-participant {
+    border-bottom: 1px solid #353a47;
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+}
