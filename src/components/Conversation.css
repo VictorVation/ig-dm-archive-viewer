@@ -12,3 +12,7 @@
     line-height: 5vh;
     text-align: center;
 }
+
+.small {
+    font-size: 10px;
+}

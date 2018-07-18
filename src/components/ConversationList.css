@@ -1,7 +1,7 @@
 .ConversationList {
     cursor: pointer;
     grid-column: 1;
-    height: 90vh;
+    height: 85vh;
     list-style: none;
     padding: 0;
 }

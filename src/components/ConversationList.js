@@ -25,9 +25,7 @@ class ConversationList extends React.PureComponent {
                 }}
                 onClick={() => this.props.onConversationSelected(message)}
             >
-                {`${message.participants.join(", ")} (${
-                    message.conversation.length
-                })`}
+                {message.participants.join(", ")} ({message.conversation.length})
             </li>
         );
     }
