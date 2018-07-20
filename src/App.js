@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import Conversation from "./components/Conversation.js";
-import ConversationList from "./components/ConversationList.js";
-import UploadForm from "./components/UploadForm.js";
+import Conversation from './components/Conversation.js';
+import ConversationList from './components/ConversationList.js';
+import UploadForm from './components/UploadForm.js';
 
-import "./App.css";
-import "react-virtualized/styles.css";
+import './App.css';
+import 'react-virtualized/styles.css';
 
 class App extends Component {
   state = {
