@@ -27,14 +27,23 @@ a {
   background-color: #84b082;
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
 .App-title {
-  text-align: center;
   font-family: "Slabo 27px";
   font-size: 27px;
   font-weight: 400;
   cursor: default;
+}
+
+.App-username,
+.App-subtitle {
+  float: right;
+}
+
+a.App-subtitle {
+  color: white;
 }
 
 .App-content {

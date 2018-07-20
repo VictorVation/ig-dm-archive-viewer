@@ -8,6 +8,7 @@
     "moment": "^2.22.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-dropzone": "^4.2.13",
     "react-scripts": "1.1.4",
     "react-virtualized": "^9.20.1"
   },

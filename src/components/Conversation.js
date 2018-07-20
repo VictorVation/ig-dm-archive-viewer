@@ -8,20 +8,14 @@ import Message from "./Message.js";
 import "./Conversation.css";
 
 class Conversation extends React.PureComponent {
-    constructor(props) {
-        super(props);
-        this.rowRenderer = this.rowRenderer.bind(this);
-    }
-
-    rowRenderer({ key, index, style }) {
-        return (
-            <Message
-                key={key}
-                message={this.props.selectedConversation.conversation[index]}
-                style={style}
-            />
-        );
-    }
+    rowRenderer = ({ key, index, style }) => (
+        <Message
+            key={key}
+            message={this.props.selectedConversation.conversation[index]}
+            style={style}
+            username={this.props.username}
+        />
+    );
 
     render() {
         console.log(this.props.selectedConversation);

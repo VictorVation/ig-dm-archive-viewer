@@ -4,7 +4,7 @@ import moment from "moment";
 
 import "./Message.css";
 
-function Message({ message, style }) {
+function Message({ message, style, username }) {
     console.log(message);
     window.moment = moment;
     const {
@@ -44,7 +44,7 @@ function Message({ message, style }) {
         <div
             className={cx({
                 Message: true,
-                mine: sender === "victorvation"
+                mine: sender === username
             })}
             style={style}
         >
