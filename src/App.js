@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Conversation from './components/Conversation.js';
 import ConversationList from './components/ConversationList.js';
-import UploadForm from './components/UploadForm.js';
+import UploadForm from './UploadForm.js';
 
 import './App.css';
 import 'react-virtualized/styles.css';
