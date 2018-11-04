@@ -4,41 +4,45 @@ import moment from 'moment';
 
 import './Message.css';
 
-function Message({ message, style, username }) {
-  console.log(message);
-  window.moment = moment;
+function formatContent(message) {
   const {
-    created_at,
     heart,
+    story_share,
     media,
     media_share_caption,
     media_share_url,
     media_owner,
     text,
-    sender,
-    story_share
+    sender
   } = message;
-
-  let content = '<empty>';
   if (story_share) {
-    content = story_share;
+    return story_share;
   }
   if (heart) {
-    content = heart;
+    return heart;
   }
   if (media_share_caption) {
-    content = (
+    return (
       <a href={media_share_url}>
         Shared {media_owner}'s post: {media_share_caption}
       </a>
     );
   }
   if (media) {
-    content = <a href={media}>direct image</a>;
+    return (
+      <a href={media}>
+        <img src={media} alt="Direct Image" />
+      </a>
+    );
   }
   if (text) {
-    content = text;
+    return text;
   }
+}
+
+function Message({ message, style, username }) {
+  window.moment = moment;
+  const { created_at, sender } = message;
 
   return (
     <div
@@ -48,7 +52,7 @@ function Message({ message, style, username }) {
       })}
       style={style}
     >
-      {content}
+      {formatContent(message)}
       <br />
       <em className="timestamp">
         {moment(created_at).format('MMM Do YYYY, h:mm:ss a')}
