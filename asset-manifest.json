@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.9dfaab76.css",
-  "main.css.map": "static/css/main.9dfaab76.css.map",
-  "main.js": "static/js/main.5fafd6da.js",
-  "main.js.map": "static/js/main.5fafd6da.js.map"
+  "main.css": "/ig-dm-archive-viewer/static/css/main.457d3fe3.chunk.css",
+  "main.js": "/ig-dm-archive-viewer/static/js/main.09c737c6.chunk.js",
+  "main.js.map": "/ig-dm-archive-viewer/static/js/main.09c737c6.chunk.js.map",
+  "static/css/1.9c769a1c.chunk.css": "/ig-dm-archive-viewer/static/css/1.9c769a1c.chunk.css",
+  "static/js/1.42b32522.chunk.js": "/ig-dm-archive-viewer/static/js/1.42b32522.chunk.js",
+  "static/js/1.42b32522.chunk.js.map": "/ig-dm-archive-viewer/static/js/1.42b32522.chunk.js.map",
+  "runtime~main.js": "/ig-dm-archive-viewer/static/js/runtime~main.23c13ff4.js",
+  "runtime~main.js.map": "/ig-dm-archive-viewer/static/js/runtime~main.23c13ff4.js.map",
+  "static/css/1.9c769a1c.chunk.css.map": "/ig-dm-archive-viewer/static/css/1.9c769a1c.chunk.css.map",
+  "static/css/main.457d3fe3.chunk.css.map": "/ig-dm-archive-viewer/static/css/main.457d3fe3.chunk.css.map",
+  "index.html": "/ig-dm-archive-viewer/index.html",
+  "precache-manifest.c0ee38c617f81ce114a36da4e325044d.js": "/ig-dm-archive-viewer/precache-manifest.c0ee38c617f81ce114a36da4e325044d.js",
+  "service-worker.js": "/ig-dm-archive-viewer/service-worker.js"
 }
