@@ -12,8 +12,7 @@ function formatContent(message) {
     media_share_caption,
     media_share_url,
     media_owner,
-    text,
-    sender
+    text
   } = message;
   if (story_share) {
     return story_share;
