@@ -39,8 +39,7 @@ function formatContent(message) {
   }
 }
 
-function Message({ message, style, username }) {
-  window.moment = moment;
+export default function Message({ message, style, username }) {
   const { created_at, sender } = message;
 
   return (
@@ -59,5 +58,3 @@ function Message({ message, style, username }) {
     </div>
   );
 }
-
-export default Message;

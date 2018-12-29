@@ -35,8 +35,6 @@ class App extends Component {
     });
 
   render() {
-    window.SU = this.setUsername;
-    window.me = () => console.log(this.state);
     return (
       <div className="App">
         <header className="App-header">
@@ -61,7 +59,7 @@ class App extends Component {
             />
           )}
           {this.state.username && (
-            <React.Fragment>
+            <>
               <ConversationList
                 messages={this.state.messages}
                 onConversationSelected={this.selectConversation}
@@ -71,7 +69,7 @@ class App extends Component {
                 selectedConversation={this.state.selectedConversation}
                 username={this.state.username}
               />
-            </React.Fragment>
+            </>
           )}
         </div>
       </div>
