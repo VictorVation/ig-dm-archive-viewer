@@ -46,6 +46,7 @@ export default function Conversation(props) {
               rowHeight={65}
               rowRenderer={rowRenderer}
               style={{ outline: 'none' }}
+              scrollToIndex={conversationLength - 1}
             />
           )}
         </AutoSizer>
